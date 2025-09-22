@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registresion Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main-box">
+        <h2>Registresion Form</h2>
+        <div id="form-box">
+            <form action="">
+                <input type="text" id="fristName" placeholder="Enter Your Frist Name">
+               <i id="warn-fristName" class="fa-solid fa-circle-exclamation"></i>
+               <div id="fristName-text">
+                   <h6>What's Your Name?</h6>
+                   <i class="fas fa-long-arrow-alt-up"></i>
+               </div>
+
+                <input type="text" id="lastName" placeholder="Enter Your Last Name">
+               <i id="warn-lastName" class="fa-solid fa-circle-exclamation"></i>
+                <div id="lastNameText">
+                   <h6>What's Your Name?</h6>
+                   <i class="fas fa-long-arrow-alt-up"></i>
+               </div>
+
+                <input type="email" id="email" placeholder="Enter Your email"><br>
+               <i id="warn-email" class="fa-solid fa-circle-exclamation"></i>
+               <div id="email-text">
+                   <h6>Write an Email</h6>
+                   <i class="fas fa-long-arrow-alt-up"></i>
+               </div>
+
+
+                <label for="date">Date Of Birth:</label>
+                <input type="date" id="date">
+
+                <input type="password" name="" id="newPassword" placeholder="Enter a new password">
+               <i id="warn-newPassword" class="fa-solid fa-circle-exclamation"></i>
+               <div id="newPassword-text">
+                   <h6>Write a Strong Password</h6>
+                   <i class="fas fa-long-arrow-alt-up"></i>
+               </div>
+
+
+                <input type="password" id="confrmPassword" placeholder="Enter confarm password"><br>
+               <i id="warn-confrmPassword" class="fa-solid fa-circle-exclamation"></i>
+               <div id="confrmPassword-text">
+                   <h6>Write a Strong Password</h6>
+                   <i class="fas fa-long-arrow-alt-up"></i>
+               </div>
+
+                <button id="btn"> Sign Up</button>
+                <p><a href="#">Alrady Have a Accound</a></p>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
